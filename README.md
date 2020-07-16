@@ -12,7 +12,7 @@ To Run the code, set the values of the following properties in main_ECWSA file:
 * iteration = maximum number of iterations allowed
 * fold = The value k in k-fold crossValidation
 
-***Note: We have used only KNN classifier to obtain accuracy, you can use other classifiers as well. But, you need to change the crossValidation.m file to use the other classifier and change the knnClassifier function call to the new classifier wherever it appears in the code***
+***Note: We have used only KNN classifier to obtain accuracy, you can use other classifiers as well. But, you need to change the _crossValidation.m_ file to use the other classifier and change the knnClassifier function call to the new classifier wherever it appears in the code***
 
 
 ## Running the code
