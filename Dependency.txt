@@ -1,0 +1,5 @@
+Functional dependency of the codes {Function <- dependency functions}
+
+    main_ECWSA <- gen_mRMR, knnClassifier, ECWSA
+    gen_mRMR <- maxRelMinRed
+    ECWSA <- datacreate, chaotic, encircle, spiral, local_search
