@@ -11,6 +11,7 @@ To Run the code, set the values of the following properties in main_ECWSA file:
 * populationSize = initial count of search agents (later adjusted due to death of unfit whales)
 * iteration = maximum number of iterations allowed
 * fold = The value k in k-fold crossValidation
+* k = Value of k in K-nearest neighbors classifier
 
 ***Note: We have used only KNN classifier to obtain accuracy, you can use other classifiers as well. But, you need to change the _crossValidation.m_ file to use the other classifier and change the knnClassifier function call to the new classifier wherever it appears in the code***
 
