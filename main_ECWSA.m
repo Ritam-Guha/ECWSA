@@ -5,7 +5,7 @@
 %  Developed in MATLAB R2016a                                       %
 %                                                                   %
 %   Main Paper: Guha, R., Ghosh, M., Mutsuddi, S. et al.            %
-%   Embedded chaotic whale survival algorithm for filter–wrapper    %
+%   Embedded chaotic whale survival algorithm for filterâ€“wrapper    %
 %   feature selection. Soft Comput (2020).                          %
 %   https://doi.org/10.1007/s00500-020-05183-1                      %
 %                                                                   %                                         
@@ -60,6 +60,7 @@ function [] = main_ECWSA()
         % Storing results and showing the final performance
         displayMemory(memory);                    
         save(strcat(folderName,'/Final.mat'),'memory');     
+        memory = null(1);
 
     end
 
